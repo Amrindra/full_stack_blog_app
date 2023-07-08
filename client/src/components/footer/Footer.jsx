@@ -1,7 +1,17 @@
-import React from "react";
+import "./FooterStyle.scss";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer>
+      <img
+        src="https://amrindraouk.com/static/media/Amrindra.a232ff876db801dce850.png"
+        alt="amrindra's logo"
+      />
+      <span>
+        Made with ♥️ and <b>React.js</b>.
+      </span>
+    </footer>
+  );
 };
 
 export default Footer;
