@@ -2,6 +2,7 @@ import "./Singlepage.scss";
 import Delete from "../../assets/delete.png";
 import Edit from "../../assets/edit.png";
 import { Link } from "react-router-dom";
+import Menu from "../../components/menu/Menu";
 
 const Singlepage = () => {
   return (
@@ -49,7 +50,9 @@ const Singlepage = () => {
         </p>
       </div>
 
-      <div className="menu">m</div>
+      <div className="menu">
+        <Menu />
+      </div>
     </article>
   );
 };
