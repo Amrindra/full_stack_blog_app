@@ -6,10 +6,12 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <img
-            src="https://amrindraouk.com/static/media/Amrindra.a232ff876db801dce850.png"
-            alt="amrindra's logo"
-          />
+          <Link to="/">
+            <img
+              src="https://amrindraouk.com/static/media/Amrindra.a232ff876db801dce850.png"
+              alt="amrindra's logo"
+            />
+          </Link>
         </div>
 
         <div className="links">

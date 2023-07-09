@@ -1,0 +1,64 @@
+.singlePage{
+    display: flex;
+    gap: 50px;
+
+    .content{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+
+            img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .info{
+                .edit{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    
+                    h3{
+                        font-weight: bold;
+                    }
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        h1{
+            font-size: 30px;
+            color: #333;
+        }
+
+        p{
+            text-align: justify;
+            line-height: 30px;
+            font-size: 18px;
+        }
+    }
+
+    .menu{
+        flex: 2;
+    }
+}
