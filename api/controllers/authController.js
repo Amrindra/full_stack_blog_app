@@ -1,5 +1,6 @@
 import { db } from "../db.js";
 
+// REGISTER ENDPOINT
 export const register = (req, res) => {
   const { username, email, password } = req.body;
 
@@ -50,8 +51,9 @@ export const register = (req, res) => {
       });
     });
   });
-};
+}; //End of Register endpoint
 
+// LOGIN ENDPOINT
 export const login = (req, res) => {
   res.json("from controller");
 };
